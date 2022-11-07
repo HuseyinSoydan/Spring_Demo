@@ -2,10 +2,11 @@ package CampSpringProject.Kodlama.io.Devs.business.abstracts;
 
 import java.util.List;
 
+import CampSpringProject.Kodlama.io.Devs.business.responses.programmingLanguage.GetAllProgrammingLanguageResponse;
 import CampSpringProject.Kodlama.io.Devs.entities.concretes.ProgrammingLanguage;
 
 public interface ProgrammingLanguageService {
-	List<ProgrammingLanguage> getAll();
+	List<GetAllProgrammingLanguageResponse> getAll();
 
 	void add(ProgrammingLanguage language);
 
@@ -15,5 +16,4 @@ public interface ProgrammingLanguageService {
 
 	ProgrammingLanguage getById(int id);
 	
-	boolean checkIfExists(ProgrammingLanguage language);
 }

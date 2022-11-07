@@ -8,10 +8,10 @@
 		<version>2.7.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>CampSpringProject</groupId>
-	<artifactId>Kodlama.io.Devs</artifactId>
+	<groupId>Kodlama.io</groupId>
+	<artifactId>Devs</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Kodlama.io.Devs</name>
+	<name>Devs</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
